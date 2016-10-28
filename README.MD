@@ -1,2 +1,1 @@
-PHPER
-USE LINUX TO DO ANYTHING...
+design设计模式之观察者
