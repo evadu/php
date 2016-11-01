@@ -18,7 +18,7 @@
         购买者能过去AgentMaskImp去买面膜 通过$_GET['name']告诉代理商要哪一种面膜，默认为mg
 
 
-二.singledesign 单例模式
+三.singledesign 单例模式
 
         查询连接池的共用及池的计算
 
