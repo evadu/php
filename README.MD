@@ -25,3 +25,22 @@
         数据库连接池的消耗比较大，为了减少不必要的连接。可通过单例模去实现！
 
 
+四.factorydesign 工厂模式
+
+        主体HUMANIFC定义 生老病死
+                |  |
+                |  |
+                  V
+              实际主体是
+        黑种人BlackHuman 和 黄种人 YellowHuman
+
+        开不同的工厂
+              BlackFactory ,YellowFactory
+         里面主要就是造人 createHuman();
+
+         Main调用，想造一个黑人去工厂 (new BlackFactory())->createHuman() 黑人造出来了。。。不用管生死病死!
+        ...............
+
+        ！
+
+
