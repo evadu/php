@@ -1,0 +1,181 @@
+/**默认标签**/
+a {
+  transition: all 0.4s ease;
+  color: #3B5998;
+  :hover, :focus, :link, :visited {
+    text-decoration: none;
+    outline: none;
+  }
+}
+
+body {
+  background-color: darkblue;
+  margin-left: 10%;
+  background-image: url("/img/bg.png");
+  color: white;
+}
+
+/**字体内**/
+.tm-site-name {
+  color: #cc9900;
+  display: block;
+  font-size: 2.6rem;
+  font-weight: 400;
+}
+
+.tm-main-nav {
+  font-size: 1.2rem;
+}
+
+.header {
+  width: 80%;
+  margin-top: 20px;
+}
+
+/**菜单 ***/
+.menu {
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  margin-left: -20px;
+}
+
+.nav-item {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  float: left;
+  margin-left: 20px;
+  list-style: none;
+}
+
+.nav-link {
+  border-radius: 6px;
+  color: #888888;
+  padding: 10px 40px;
+}
+
+.nav-item.active, .nav-item:focus, .nav-item:hover {
+  outline: none;
+  .nav-link {
+    color: white;
+    background-color: #3B5998;
+    text-decoration: none;
+  }
+}
+
+//信息页
+.web-info {
+  margin-top: 5px;
+  border-color: #438da1;
+  //  border-top: solid 1px;
+  //  border-bottom: solid 1px;
+  height: 150px;
+  width: 80%;
+  background-color: #3B5998;
+  .desc-info {
+    margin-top: 10px;
+  }
+  .circle {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 1em auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-radius: 99em;
+    -moz-border-radius: 99em;
+    border-radius: 99em;
+  }
+  .circle-img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 1em auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-radius: 99em;
+    -moz-border-radius: 99em;
+    border-radius: 99em;
+    background-image: url("/img/head/1.png");
+    margin-top: 25px;
+    margin-bottom: 7px;
+  }
+  .image-holder {
+    position: relative;
+    margin: -10px auto;
+    width: 140px;
+    height: 140px;
+  }
+
+  .head-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 140px;
+    border: 10px solid #4c70ba;
+  }
+
+  .head-image {
+    z-index: 0;
+  }
+}
+
+.login_info {
+  margin-top: 5px;
+  background: rgba(45, 57, 63, 0.8);
+  width: 80%;
+  height: 50px;
+  color: #888888;
+}
+
+.content {
+  margin-top: 5px;
+  .user-shape {
+    background-color: #4c6aa9;
+    img {
+      float: left;
+      width: 50px;
+      height: 50px;
+    }
+    .title {
+      font-weight: bold;
+      height: 50px;
+      border-bottom: 1px solid;
+      color: #888888;
+    }
+    .item {
+      margin-top: 5px;
+      height: 50px;
+      border-bottom: 1px dashed;
+    }
+  }
+  .team-shape {
+    background-color: #4c6aa9;
+    img {
+      float: left;
+      width: 80px;
+      height: 80px;
+    }
+    .title {
+      font-weight: bold;
+      height: 100px;
+      border-bottom: 1px solid;
+      color: #888888;
+    }
+    .item {
+      margin-top: 10px;
+      height: 100px;
+      border-bottom: 1px dashed;
+    }
+  }
+}
+//END
+.footer{
+  margin-left: -14px;
+  width: 80%;
+  border-top: 1px solid;
+  border-color: #3B5998;
+}
